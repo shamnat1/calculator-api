@@ -1,3 +1,3 @@
 const app = require("./app");
 
-app.listen(3006, () => console.log("server starting on port 3006!"));
+app.listen(process.env.PORT || 5000, () => console.log("server started!"));
